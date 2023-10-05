@@ -6,7 +6,7 @@ NVIM_VERSION="$VERSION"
 if [ -f /etc/os-release ]; then
 	. /etc/os-release
 
-	OS=$(echo "$NAME" | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
+	OS="$ID"
 	OS_VERSION=$VERSION_ID
 
 	if [ -f "./helpers/installers/${OS}.sh" ]; then

@@ -11,14 +11,14 @@ install() {
 	OS=$1
 	OS_VERSION=$2
 
-	apt_cache_update
+	pkg_cache_update
 	install_build_dep
 	install_neovim
 	uninstall_build_dep
 	# install_runtime_dep
 }
 
-apt_cache_update() {
+pkg_cache_update() {
 	if [ "$_APT_CACHE_UPDATED" -eq 0 ]; then
 		apt update
 		_APT_CACHE_UPDATED=1
@@ -26,7 +26,6 @@ apt_cache_update() {
 }
 
 install_build_dep() {
-	apt_cache_update
 	apt install -y "$BUILD_DEP"
 }
 
