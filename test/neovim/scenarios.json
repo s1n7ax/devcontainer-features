@@ -1,0 +1,10 @@
+{
+  "neovim": {
+    "image": "ubuntu:latest",
+    "features": {
+      "neovim": {
+        "version": "nightly"
+      }
+    }
+  }
+}
