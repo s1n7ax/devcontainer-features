@@ -23,11 +23,16 @@ if [ -f /etc/os-release ]; then
 	else
 		. helpers/installers/common.sh
 
-		install || echo "At the moment, the os: '${OS}' is not supported.
-		Please create an issue in https://github.com/s1n7ax/devcontainer-neovim-featurs/issues
-		Include the /etc/os-release file content for us to identify the Linux distribution
-		You are running.
-		" >2 &
+		install
+
+		if [ $? -nq 0 ]; then
+			echo "At the moment, the os: '${OS}' is not supported.
+			Please create an issue in https://github.com/s1n7ax/devcontainer-neovim-featurs/issues
+			Include the /etc/os-release file content for us to identify the Linux distribution
+			You are running.
+			" >&2
+			exit 1
+		fi
 	fi
 else
 	echo "/etc/os-release file was not found in the container" >2 &
