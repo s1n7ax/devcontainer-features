@@ -1,12 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
-# This refers scenarios.json
+set -eux
 
-set -e
+# test lib cannot be used for alpine because it only support bash and alpine only got sh
+# source dev-container-features-test-lib
 
-source dev-container-features-test-lib
-
-check "Neovim executable should be available" bash -c "nvim --version | grep NVIM"
-check "Neovim version should be nighly" bash -c "nvim --version | grep 'NVIM v0.10.0-dev'"
-
-reportResults
+nvim --version | grep NVIM
+nvim --version | grep 'NVIM v0.9.2'

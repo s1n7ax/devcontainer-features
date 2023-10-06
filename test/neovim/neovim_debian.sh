@@ -2,7 +2,7 @@
 
 # This refers scenarios.json
 
-set -e
+set -euxo pipefail
 
 source dev-container-features-test-lib
 

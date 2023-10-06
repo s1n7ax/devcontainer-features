@@ -19,7 +19,7 @@
     "image": "debian:latest",
     "features": {
       "neovim": {
-        "version": "nightly"
+        "version": "stable"
       }
     }
   }

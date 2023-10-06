@@ -1,10 +1,13 @@
-#!/bin/bash
+#!/bin/sh
 
-. "./helpers/installers/ubuntu.sh"
+set -eux
 
 install() {
-	OS=$1
-	OS_VERSION=$2
+	if [ "$NVIM_VERSION" != "v0.9.2" || $NVIM_VERSION != "stable"]; then
+		echo "On $OS, the only supported nvim version is v0.9.2" >&2
+		echo "But the requested version is $NVIM_VERSION"
+		exit 1
+	fi
 
-	install_neovim
+	apk add neovim
 }
