@@ -1,0 +1,26 @@
+{
+  "astronvim_ubuntu": {
+    "image": "ubuntu:latest",
+    "features": {
+      "astronvim": {
+        "version": "v3.37.2"
+      }
+    }
+  },
+  "astronvim_debian": {
+    "image": "debian:latest",
+    "features": {
+      "astronvim": {
+        "version": "v3.37.1"
+      }
+    }
+  },
+  "astronvim_alpine": {
+    "image": "alpine:latest",
+    "features": {
+      "astronvim": {
+        "version": "v3.36.12"
+      }
+    }
+  }
+}
