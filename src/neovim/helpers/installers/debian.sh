@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/sh
 
-. "./helpers/installers/ubuntu.sh"
+. helpers/installers/ubuntu.sh

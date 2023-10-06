@@ -1,12 +1,11 @@
-#!/bin/bash
+#!/bin/sh
 
-# This refers scenarios.json
+set -eux
 
-set -e
+# DO NOT MAKE THIS BASH
+# In the pipeline tests, this will be ran against alpine & other
+# shell script only environments so it's important to keep this
+# a sh script
 
-source dev-container-features-test-lib
-
-check "Neovim executable should be available" bash -c "nvim --version | grep NVIM"
-check "Default Neovim version should be v0.9.2" bash -c "nvim --version | grep 'NVIM v0.9.2'"
-
-reportResults
+nvim --version | grep NVIM
+nvim --version | grep 'NVIM v0.9.2'
