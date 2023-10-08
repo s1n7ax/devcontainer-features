@@ -18,7 +18,7 @@ has_matching_version() {
 	IFS="." read -r -a end <<<"$2"
 	IFS="." read -r -a version <<<"$3"
 
-	if [ ${version[0]} -gt ${start[0]} ] || [ ${version[0]} -lt ${end[0]} ]; then
+	if [ ${version[0]} -gt ${start[0]} ] && [ ${version[0]} -lt ${end[0]} ]; then
 		echo 1
 		return
 	fi
@@ -46,6 +46,8 @@ has_matching_version() {
 		echo 1
 		return
 	fi
+
+	echo 0
 }
 
 get_os_info_from_path() {
