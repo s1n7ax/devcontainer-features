@@ -16,7 +16,6 @@ jobs:
         features:
           - neovim
         baseImage:
-          - alpine:latest
           - debian:latest
           - ubuntu:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
@@ -37,7 +36,6 @@ jobs:
         features:
           - neovim
         baseImage:
-          - alpine:latest
           - debian:latest
           - ubuntu:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
