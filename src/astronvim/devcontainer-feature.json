@@ -1,7 +1,7 @@
 {
   "name": "AstroNvim",
   "id": "astronvim",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Provides astronvim features for devcontainers",
   "options": {
     "version": {
@@ -13,5 +13,10 @@
       "default": "v3.37.2",
       "description": "Select the astronvim version you want to install as present in GitHub Releases"
     }
-  }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/git:1",
+    "ghcr.io/s1n7ax/devcontainer-neovim-features/neovim-essentials:0",
+    "ghcr.io/s1n7ax/devcontainer-neovim-features/neovim:0"
+  ]
 }
