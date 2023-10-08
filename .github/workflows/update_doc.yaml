@@ -1,11 +1,14 @@
 name: "Generate feature documentation"
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
   deploy:
     if: ${{ github.ref == 'refs/heads/main' }}
-    needs: ["test"]
     runs-on: ubuntu-latest
     permissions:
       contents: write
