@@ -1,4 +1,4 @@
-name: "Release dev container features"
+name: "Generate feature documentation"
 on:
   workflow_dispatch:
 
@@ -11,6 +11,7 @@ jobs:
       pull-requests: write
       packages: write
     steps:
+      - uses: actions/checkout@v3
       - name: Create PR for Documentation
         id: push_image_info
         env:
