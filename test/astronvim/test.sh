@@ -1,10 +1,12 @@
 #!/bin/bash
 
-set -e
+# This refers scenarios.json
 
-# DO NOT MAKE THIS BASH
-# In the pipeline tests, this will be ran against alpine & other
-# shell script only environments so it's important to keep this
-# a sh script
+set -euxo pipefail
 
-ls -la ~/.config/nvim/lua/astronvim
+source dev-container-features-test-lib
+
+check "AstroNvim config is available" bash -c "ls ~/.config/nvim/lua/astronvim"
+check "AstroNvim plugins are insalled" bash -c "ls ~/.local/share/nvim/lazy"
+
+reportResults
