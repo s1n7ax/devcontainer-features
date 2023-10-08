@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eux
+
 apt update
 
 apt install -y \
