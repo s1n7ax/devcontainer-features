@@ -1,25 +1,9 @@
 {
-  "neovim_ubuntu": {
+  "ubuntu_latest": {
     "image": "ubuntu:latest",
     "features": {
       "neovim": {
         "version": "nightly"
-      }
-    }
-  },
-  "neovim_debian": {
-    "image": "debian:latest",
-    "features": {
-      "neovim": {
-        "version": "nightly"
-      }
-    }
-  },
-  "neovim_alpine": {
-    "image": "debian:latest",
-    "features": {
-      "neovim": {
-        "version": "stable"
       }
     }
   }
