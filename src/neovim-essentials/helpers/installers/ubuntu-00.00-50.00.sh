@@ -4,6 +4,7 @@ apt update
 
 apt install -y \
 	build-essential \
+	wget \
 	curl \
 	git \
 	python3 \
