@@ -1,4 +1,4 @@
-name: "Generate feature documentation"
+name: "Update Documentation"
 on:
   workflow_dispatch:
   push:
