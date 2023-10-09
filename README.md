@@ -4,15 +4,10 @@ This provides a list of features related to Neovim for Devcontainers
 
 ## Features
 
-### Neovim
-
-- [x] Neovim
-  - Versions: You can use any version available in [Neovim GitHub Releases](https://github.com/neovim/neovim/releases)
-  - Note: On Alpine you are limited to the default package manager version
-
-### Neovim Distributions
-
-- [ ] AstroNvim
+- Neovim essentials
+- Neovim
+- AstroNvim
+- Lookatme (markdown presentation tool)
 
 ## How to use
 
