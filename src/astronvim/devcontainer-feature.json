@@ -1,7 +1,7 @@
 {
   "name": "AstroNvim",
   "id": "astronvim",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Provides astronvim features for devcontainers",
   "options": {
     "version": {
@@ -15,7 +15,6 @@
     }
   },
   "installsAfter": [
-    "ghcr.io/devcontainers/features/git:1",
     "ghcr.io/s1n7ax/devcontainer-neovim-features/neovim-essentials:0",
     "ghcr.io/s1n7ax/devcontainer-neovim-features/neovim:0"
   ]

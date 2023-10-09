@@ -1,7 +1,7 @@
 {
   "name": "Neovim",
   "id": "neovim",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Provide neovim features for devcontainers",
   "options": {
     "version": {
@@ -15,5 +15,8 @@
       "default": "stable",
       "description": "Select the neovim version you want to install as present in GitHub Releases"
     }
-  }
+  },
+  "installsAfter": [
+    "ghcr.io/s1n7ax/devcontainer-neovim-features/neovim-essentials:0"
+  ]
 }

@@ -1,7 +1,48 @@
 {
   "name": "NeovimEssentials",
   "id": "neovim-essentials",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Provide essentials features for neovim for devcontainers",
-  "options": {}
+  "options": {
+    "git": {
+      "type": "boolean",
+      "description": "If true, git will be installed",
+      "default": true
+    },
+    "build_essential": {
+      "type": "boolean",
+      "description": "If true, build essential will be installed",
+      "default": true
+    },
+    "wget": {
+      "type": "boolean",
+      "description": "If true, wget will be installed",
+      "default": true
+    },
+    "curl": {
+      "type": "boolean",
+      "description": "If true, curl will be installed",
+      "default": true
+    },
+    "python3": {
+      "type": "boolean",
+      "description": "If true, python3 will be installed",
+      "default": true
+    },
+    "pip3": {
+      "type": "boolean",
+      "description": "If true, pip3 will be installed",
+      "default": true
+    },
+    "python_is_python3": {
+      "type": "boolean",
+      "description": "If true, python-is-python3 will be installed",
+      "default": true
+    },
+    "ripgrep": {
+      "type": "boolean",
+      "description": "If true, ripgrep will be installed",
+      "default": true
+    }
+  }
 }
