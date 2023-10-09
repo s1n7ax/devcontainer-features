@@ -1,8 +1,10 @@
 #!/bin/bash
 
-set -eux
+set -euxo pipefail
 
 apt update
+
+env
 
 pkgs=()
 
@@ -22,20 +24,22 @@ if [ $CURL = "true" ]; then
 	pkgs+=("curl")
 fi
 
-if [ $PYTHON3 = "true"]; then
+if [ $PYTHON3 = "true" ]; then
 	pkgs+=("python3")
 fi
 
-if [ $PIP3 = "true"]; then
+if [ $PIP3 = "true" ]; then
 	pkgs+=("python3-pip")
 fi
 
-if [ $PYTHON_IS_PYTHON3 = "true"]; then
+if [ $PYTHON_IS_PYTHON3 = "true" ]; then
 	pkgs+=("python-is-python3")
 fi
 
-if [ $RIPGREP = "true"]; then
+if [ $RIPGREP = "true" ]; then
 	pkgs+=("ripgrep")
 fi
+
+echo "${pkgs[@]}"
 
 apt install -y "${pkgs[@]}"
