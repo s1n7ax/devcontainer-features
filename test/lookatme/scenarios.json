@@ -1,0 +1,8 @@
+{
+  "ubuntu-latest": {
+    "image": "ubuntu:latest",
+    "features": {
+      "lookatme": {}
+    }
+  }
+}
