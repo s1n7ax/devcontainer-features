@@ -16,4 +16,6 @@ rm "$ASTRONVIM_VERSION.tar.gz"
 mkdir -p ~/.config
 mv "AstroNvim-${ASTRONVIM_VERSION#v}" ~/.config/nvim
 
-nvim --headless "+Lazy! sync" +qa
+if command -v nvim &>/dev/null; then
+	nvim --headless "+Lazy! sync" +qa
+fi
