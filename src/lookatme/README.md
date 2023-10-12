@@ -7,7 +7,7 @@ Installs python lookatme
 
 ```json
 "features": {
-    "ghcr.io/s1n7ax/devcontainer-neovim-features/lookatme:0": {}
+    "ghcr.io/s1n7ax/devcontainer-features/lookatme:0": {}
 }
 ```
 
@@ -21,4 +21,4 @@ Installs python lookatme
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/s1n7ax/devcontainer-neovim-features/blob/main/src/lookatme/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/s1n7ax/devcontainer-features/blob/main/src/lookatme/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

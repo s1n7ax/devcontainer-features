@@ -7,7 +7,7 @@ Provides astronvim features for devcontainers
 
 ```json
 "features": {
-    "ghcr.io/s1n7ax/devcontainer-neovim-features/astronvim:0": {}
+    "ghcr.io/s1n7ax/devcontainer-features/astronvim:0": {}
 }
 ```
 
@@ -21,4 +21,4 @@ Provides astronvim features for devcontainers
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/s1n7ax/devcontainer-neovim-features/blob/main/src/astronvim/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/s1n7ax/devcontainer-features/blob/main/src/astronvim/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
