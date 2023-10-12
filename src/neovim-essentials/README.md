@@ -7,7 +7,7 @@ Provide essentials features for neovim for devcontainers
 
 ```json
 "features": {
-    "ghcr.io/s1n7ax/devcontainer-neovim-features/neovim-essentials:0": {}
+    "ghcr.io/s1n7ax/devcontainer-features/neovim-essentials:0": {}
 }
 ```
 
@@ -28,4 +28,4 @@ Provide essentials features for neovim for devcontainers
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/s1n7ax/devcontainer-neovim-features/blob/main/src/neovim-essentials/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/s1n7ax/devcontainer-features/blob/main/src/neovim-essentials/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
