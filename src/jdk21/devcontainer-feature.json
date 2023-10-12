@@ -1,7 +1,7 @@
 {
   "name": "JDK21",
   "id": "jdk21",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Installs jdk21",
   "options": {
     "install_jdtls": {
