@@ -1,0 +1,10 @@
+{
+	"tasks": [
+		{
+			"label": "Test Devcontainer Feature",
+			"type": "shell",
+			"group": "build",
+			"command": "devcontainer features test -f "
+		}
+	]
+}
