@@ -33,7 +33,10 @@ jobs:
     strategy:
       matrix:
         features:
+          - neovim-essential
           - neovim
+          - astronvim
+          - jdk21
         baseImage:
           - ubuntu:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
