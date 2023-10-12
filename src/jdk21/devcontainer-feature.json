@@ -11,7 +11,7 @@
     }
   },
   "containerEnv": {
-    "PATH": "/opt/jdk/bin:$PATH",
-    "JAVA_HOME": "/opt/jdk"
+    "PATH": "/opt/jdk21/bin:/opt/jdtls/bin:$PATH",
+    "JAVA_HOME": "/opt/jdk21"
   }
 }
