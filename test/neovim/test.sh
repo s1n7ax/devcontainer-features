@@ -1,11 +1,13 @@
-#!/bin/sh
+#!/bin/bash
 
-set -eux
+set -euxo pipefail
 
-# DO NOT MAKE THIS BASH
-# In the pipeline tests, this will be ran against alpine & other
-# shell script only environments so it's important to keep this
-# a sh script
+# This refers scenarios.json
 
-nvim --version | grep NVIM
-nvim --version | grep 'NVIM v0.9.2'
+set -euxo pipefail
+
+source dev-container-features-test-lib
+
+check "Java executable should be available" bash -c "nvim --version | grep 'NVIM v0.9.4'"
+
+reportResults
