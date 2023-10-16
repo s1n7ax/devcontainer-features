@@ -4,6 +4,11 @@
   "version": "0.1.1",
   "description": "Installs jdk21",
   "options": {
+    "install_java_language_server": {
+      "type": "boolean",
+      "description": "If true, java-language-server will be installed",
+      "default": true
+    },
     "install_jdtls": {
       "type": "boolean",
       "description": "If true, jdtls will be installed",
@@ -11,7 +16,7 @@
     }
   },
   "containerEnv": {
-    "PATH": "/opt/jdk21/bin:/opt/jdtls/bin:$PATH",
+    "PATH": "/opt/jdk21/bin:/opt/jdtls/bin:/opt/jls/bin:$PATH",
     "JAVA_HOME": "/opt/jdk21"
   }
 }

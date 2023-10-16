@@ -27,3 +27,14 @@ if [ "$INSTALL_JDTLS" = "true" ]; then
 	mkdir /opt/jdtls
 	tar xf jdtls.tar.gz -C /opt/jdtls
 fi
+
+# java-language-server
+if [ "$INSTALL_JAVA_LANGUAGE_SERVER" = "true" ]; then
+	axel \
+		--num-connections=5 \
+		--output=jls.tar.gz \
+		--insecure \
+		https://github.com/georgewfraser/java-language-server/archive/refs/tags/v0.2.39.tar.gz
+	mkdir /opt/jls
+	tar xf jls.tar.gz -C /opt/jls
+fi
