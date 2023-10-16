@@ -17,3 +17,4 @@ axel \
 tar xf jdk.tar.gz
 mv jdk-19.0.2+7 /opt/jdk19
 ls /opt/jdk19
+ls /opt/jdk19/bin
