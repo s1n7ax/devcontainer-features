@@ -37,6 +37,7 @@ jobs:
           - neovim
           - astronvim
           - jdk21
+          - jdk19
           - gradle
           - maven
         baseImage:

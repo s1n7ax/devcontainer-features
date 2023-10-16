@@ -13,7 +13,7 @@ axel \
 	--num-connections=5 \
 	--output=jdk.tar.gz \
 	--insecure \
-	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-jdk_x64_linux_hotspot_21_35.tar.gz
+	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21+35/OpenJDK21U-jdk_x64_linux_hotspot_21_35.tar.gz
 tar xf jdk.tar.gz
 mv jdk-21+35 /opt/jdk21
 
