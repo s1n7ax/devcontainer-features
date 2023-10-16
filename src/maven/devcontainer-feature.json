@@ -1,0 +1,19 @@
+{
+  "name": "maven",
+  "id": "maven",
+  "version": "0.0.1",
+  "description": "Installs maven",
+  "options": {
+    "version": {
+      "type": "string",
+      "description": "Maven version to be installed as in https://dlcdn.apache.org/maven/maven-3",
+      "default": "3.9.5"
+    }
+  },
+  "containerEnv": {
+    "PATH": "/opt/mvn/bin:$PATH"
+  },
+  "installsAfter": [
+    "ghcr.io/s1n7ax/devcontainer-features/jdk21:0"
+  ]
+}

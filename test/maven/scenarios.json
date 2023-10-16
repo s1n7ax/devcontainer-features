@@ -1,0 +1,9 @@
+{
+  "ubuntu-latest": {
+    "image": "ubuntu:latest",
+    "features": {
+      "jdk21": {},
+      "maven": {}
+    }
+  }
+}
