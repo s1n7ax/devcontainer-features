@@ -1,7 +1,7 @@
 {
-  "name": "JDK21",
-  "id": "jdk21",
-  "version": "0.1.2",
+  "name": "JDK19",
+  "id": "jdk19",
+  "version": "0.0.1",
   "description": "Installs jdk21",
   "options": {
     "install_java_language_server": {
