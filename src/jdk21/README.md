@@ -15,6 +15,7 @@ Installs jdk21
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
+| install_java_language_server | If true, java-language-server will be installed | boolean | true |
 | install_jdtls | If true, jdtls will be installed | boolean | true |
 
 
