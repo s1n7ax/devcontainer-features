@@ -38,6 +38,7 @@ jobs:
           - astronvim
           - jdk21
           - gradle
+          - maven
         baseImage:
           - ubuntu:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
