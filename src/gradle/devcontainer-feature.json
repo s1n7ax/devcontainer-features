@@ -1,0 +1,19 @@
+{
+  "name": "gradle",
+  "id": "gradle",
+  "version": "0.0.1",
+  "description": "Installs gradle",
+  "options": {
+    "version": {
+      "type": "string",
+      "description": "Gradle version to be installed as in https://gradle.org/releases",
+      "default": "8.4"
+    }
+  },
+  "containerEnv": {
+    "PATH": "/opt/gradle/bin:$PATH"
+  },
+  "installsAfter": [
+    "ghcr.io/s1n7ax/devcontainer-features/jdk21:0"
+  ]
+}

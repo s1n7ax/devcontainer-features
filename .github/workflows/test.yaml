@@ -37,6 +37,7 @@ jobs:
           - neovim
           - astronvim
           - jdk21
+          - gradle
         baseImage:
           - ubuntu:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
