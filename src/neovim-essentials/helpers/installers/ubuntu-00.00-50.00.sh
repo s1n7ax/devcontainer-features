@@ -40,6 +40,10 @@ if [ $RIPGREP = "true" ]; then
 	pkgs+=("ripgrep")
 fi
 
+if [ $UNZIP = "true" ]; then
+	pkgs+=("unzip")
+fi
+
 echo "${pkgs[@]}"
 
 apt install -y "${pkgs[@]}"

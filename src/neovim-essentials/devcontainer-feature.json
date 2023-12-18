@@ -43,6 +43,11 @@
       "type": "boolean",
       "description": "If true, ripgrep will be installed",
       "default": true
+    },
+    "unzip": {
+      "type": "boolean",
+      "description": "If true, unzip will be installed",
+      "default": true
     }
   }
 }
