@@ -23,6 +23,7 @@ Provide essentials features for neovim for devcontainers
 | pip3 | If true, pip3 will be installed | boolean | true |
 | python_is_python3 | If true, python-is-python3 will be installed | boolean | true |
 | ripgrep | If true, ripgrep will be installed | boolean | true |
+| unzip | If true, unzip will be installed | boolean | true |
 
 
 
