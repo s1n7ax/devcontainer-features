@@ -1,0 +1,23 @@
+{
+  "name": "Rust",
+  "id": "rust",
+  "version": "0.0.1",
+  "description": "Provides rust environment",
+  "options": {
+    "rust_channel": {
+      "type": "string",
+      "description": "rust channel to install",
+      "default": "nightly"
+    },
+    "rustup_targets": {
+      "type": "array",
+      "description": "rustup targets to install",
+      "default": []
+    },
+    "cargo_packages": {
+      "type": "array",
+      "description": "cargo packages to install globally",
+      "default": []
+    }
+  }
+}
