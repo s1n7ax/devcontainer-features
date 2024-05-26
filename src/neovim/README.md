@@ -7,7 +7,7 @@ Provide neovim features for devcontainers
 
 ```json
 "features": {
-    "ghcr.io/s1n7ax/devcontainer-features/neovim:0": {}
+    "ghcr.io/s1n7ax/devcontainer-features/neovim:2": {}
 }
 ```
 
