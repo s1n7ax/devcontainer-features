@@ -11,13 +11,11 @@
     },
     "rustup_targets": {
       "type": "string",
-      "description": "rustup targets to install",
-      "default": ""
+      "description": "rustup targets to install"
     },
     "cargo_packages": {
       "type": "string",
-      "description": "cargo packages to install globally",
-      "default": ""
+      "description": "cargo packages to install globally"
     }
   }
 }
