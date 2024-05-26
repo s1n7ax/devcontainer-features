@@ -7,7 +7,7 @@ Installs maven
 
 ```json
 "features": {
-    "ghcr.io/s1n7ax/devcontainer-features/maven:0": {}
+    "ghcr.io/s1n7ax/devcontainer-features/maven:2": {}
 }
 ```
 

@@ -7,7 +7,7 @@ Installs jdk21
 
 ```json
 "features": {
-    "ghcr.io/s1n7ax/devcontainer-features/jdk19:0": {}
+    "ghcr.io/s1n7ax/devcontainer-features/jdk19:2": {}
 }
 ```
 

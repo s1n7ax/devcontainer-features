@@ -7,7 +7,7 @@ Installs gradle
 
 ```json
 "features": {
-    "ghcr.io/s1n7ax/devcontainer-features/gradle:0": {}
+    "ghcr.io/s1n7ax/devcontainer-features/gradle:2": {}
 }
 ```
 

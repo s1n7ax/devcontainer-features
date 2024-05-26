@@ -7,7 +7,7 @@ Provides astronvim features for devcontainers
 
 ```json
 "features": {
-    "ghcr.io/s1n7ax/devcontainer-features/astronvim:0": {}
+    "ghcr.io/s1n7ax/devcontainer-features/astronvim:2": {}
 }
 ```
 

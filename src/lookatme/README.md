@@ -7,7 +7,7 @@ Installs python lookatme
 
 ```json
 "features": {
-    "ghcr.io/s1n7ax/devcontainer-features/lookatme:0": {}
+    "ghcr.io/s1n7ax/devcontainer-features/lookatme:2": {}
 }
 ```
 
