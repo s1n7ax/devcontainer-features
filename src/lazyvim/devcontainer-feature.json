@@ -1,7 +1,7 @@
 {
   "name": "Lazyvim",
   "id": "lazyvim",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Provides lazyvim features for devcontainers",
   "installsAfter": [
     "ghcr.io/s1n7ax/devcontainer-features/neovim-essentials:0",
