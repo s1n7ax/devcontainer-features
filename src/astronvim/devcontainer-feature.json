@@ -1,15 +1,12 @@
 {
   "name": "AstroNvim",
   "id": "astronvim",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Provides astronvim features for devcontainers",
   "options": {
     "version": {
       "type": "string",
-      "proposals": [
-        "v3.37.2",
-        "v3.37.1"
-      ],
+      "proposals": ["v3.37.2", "v3.37.1"],
       "default": "v3.37.2",
       "description": "Select the astronvim version you want to install as present in GitHub Releases"
     }

@@ -1,7 +1,7 @@
 {
   "name": "gradle",
   "id": "gradle",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "Installs gradle",
   "options": {
     "version": {
@@ -13,7 +13,5 @@
   "containerEnv": {
     "PATH": "/opt/gradle/bin:$PATH"
   },
-  "installsAfter": [
-    "ghcr.io/s1n7ax/devcontainer-features/jdk21:0"
-  ]
+  "installsAfter": ["ghcr.io/s1n7ax/devcontainer-features/jdk21:0"]
 }
