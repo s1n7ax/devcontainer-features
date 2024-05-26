@@ -1,0 +1,8 @@
+{
+  "ubuntu_latest": {
+    "image": "ubuntu:latest",
+    "features": {
+      "lazyvim": {}
+    }
+  }
+}
