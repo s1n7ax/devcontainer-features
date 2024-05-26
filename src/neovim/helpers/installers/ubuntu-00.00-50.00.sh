@@ -27,5 +27,7 @@ cp --recursive --update --verbose nvim-linux64/lib/* /usr/local/lib
 rm -rf nvim-linux64/lib
 
 # copy man pages
-cp --recursive --update --verbose nvim-linux64/man/* /usr/local/man
-rm -rf nvim-linux64/man
+if [ -d nvim-linux64/man ]; then
+  cp --recursive --update --verbose nvim-linux64/man/* /usr/local/man
+  rm -rf nvim-linux64/man
+fi
