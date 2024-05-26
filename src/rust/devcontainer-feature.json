@@ -10,14 +10,14 @@
       "default": "nightly"
     },
     "rustup_targets": {
-      "type": "array",
+      "type": "string",
       "description": "rustup targets to install",
-      "default": []
+      "default": ""
     },
     "cargo_packages": {
-      "type": "array",
+      "type": "string",
       "description": "cargo packages to install globally",
-      "default": []
+      "default": ""
     }
   }
 }
