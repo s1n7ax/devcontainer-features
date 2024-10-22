@@ -9,39 +9,43 @@ env
 pkgs=()
 
 if [ $GIT = "true" ]; then
-	pkgs+=("git")
+  pkgs+=("git")
 fi
 
 if [ $BUILD_ESSENTIAL = "true" ]; then
-	pkgs+=("build-essential")
+  pkgs+=("build-essential")
 fi
 
 if [ $WGET = "true" ]; then
-	pkgs+=("wget")
+  pkgs+=("wget")
 fi
 
 if [ $CURL = "true" ]; then
-	pkgs+=("curl")
+  pkgs+=("curl")
 fi
 
 if [ $PYTHON3 = "true" ]; then
-	pkgs+=("python3")
+  pkgs+=("python3")
 fi
 
 if [ $PIP3 = "true" ]; then
-	pkgs+=("python3-pip")
+  pkgs+=("python3-pip")
 fi
 
 if [ $PYTHON_IS_PYTHON3 = "true" ]; then
-	pkgs+=("python-is-python3")
+  pkgs+=("python-is-python3")
 fi
 
 if [ $RIPGREP = "true" ]; then
-	pkgs+=("ripgrep")
+  pkgs+=("ripgrep")
 fi
 
 if [ $UNZIP = "true" ]; then
-	pkgs+=("unzip")
+  pkgs+=("unzip")
+fi
+
+if [ $FZF= "true" ]; then
+  pkgs+=("fzf")
 fi
 
 echo "${pkgs[@]}"
