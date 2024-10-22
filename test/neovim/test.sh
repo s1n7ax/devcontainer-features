@@ -7,6 +7,6 @@ set -euo pipefail
 source dev-container-features-test-lib
 
 check "Neovim executable should be available" bash -c "nvim --version"
-check "Neovim version should be nightly" bash -c "nvim --version | grep 'NVIM v0.10.0'"
+check "Neovim version should be latest stable version" bash -c "nvim --version | grep 'NVIM v0.10.2'"
 
 reportResults
