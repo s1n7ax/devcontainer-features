@@ -24,6 +24,7 @@ Provide essentials features for neovim for devcontainers
 | python_is_python3 | If true, python-is-python3 will be installed | boolean | true |
 | ripgrep | If true, ripgrep will be installed | boolean | true |
 | unzip | If true, unzip will be installed | boolean | true |
+| fzf | If true, fzf will be installed | boolean | true |
 
 
 
