@@ -8,7 +8,7 @@ cd "$TEMP_DIR"
 apt update
 apt install -y wget
 
-wget "https://github.com/neovim/neovim/releases/download/$NVIM_VERSION/nvim-linux64.tar.gz"
+wget "https://github.com/neovim/neovim/releases/download/$NVIM_VERSION/nvim-linux-x86_64.tar.gz"
 tar xf nvim-linux64.tar.gz
 rm nvim-linux64.tar.gz
 
